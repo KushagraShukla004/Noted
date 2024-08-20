@@ -20,7 +20,7 @@
             android:fontFamily="@font/comfortaa"
             android:text="Edit Note"
             android:textStyle="bold"
-            android:textColor="@color/brick_red"
+            android:textColor="@color/soft_red"
             android:textSize="24sp"
             tools:ignore="HardcodedText" />
 
@@ -59,7 +59,7 @@
             android:layout_marginEnd="20dp"
             android:layout_marginBottom="20dp"
             android:clickable="true"
-            android:backgroundTint="@color/pink"
+            android:backgroundTint="@color/soft_red"
             android:focusable="true"
             android:tintMode="@color/white"
             android:src="@drawable/baseline_add_24"

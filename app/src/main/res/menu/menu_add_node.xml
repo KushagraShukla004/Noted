@@ -5,7 +5,8 @@
 
     <item
         android:id="@+id/saveMenu"
-        android:title="Save"
+        android:textColor="@color/white"
+        android:title="@string/save"
         app:showAsAction="always"
         tools:ignore="HardcodedText" />
 </menu>

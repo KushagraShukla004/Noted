@@ -3,8 +3,10 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="fuschia">#BA63FF</color>
-    <color name="blue">#6C63FF</color>
-    <color name="brick_red">#FF6C63</color>
-    <color name="light_pink">#FF63CF</color>
-    <color name="pink">#F88379</color>
+    <color name="blue">#697EF0</color>
+    <color name="soft_red">#FF6B6B</color>
+    <color name="light_gray">#F1F1F1</color>
+    <color name="dark_navy">#1B263B</color>
+    <color name="soft_gray_pink">#FFADB5</color>
+    <color name="dark_gray">#121212</color>
 </resources>

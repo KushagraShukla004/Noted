@@ -19,7 +19,7 @@
             android:layout_marginTop="16dp"
             android:fontFamily="@font/comfortaa"
             android:text="@string/add_note"
-            android:textColor="@color/brick_red"
+            android:textColor="@color/soft_red"
             android:textSize="24sp"
             android:textStyle="bold" />
 

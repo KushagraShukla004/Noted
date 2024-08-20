@@ -3,6 +3,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
+        android:id="@+id/saveMenu"
+        android:textColor="@color/white"
+        android:title="@string/save"
+        app:showAsAction="always"
+         />
+
+    <item
         android:id="@+id/deleteMenu"
         android:icon="@drawable/baseline_delete_24"
         android:title=""
