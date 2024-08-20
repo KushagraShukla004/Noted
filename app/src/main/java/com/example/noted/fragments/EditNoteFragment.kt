@@ -83,6 +83,18 @@ class EditNoteFragment : Fragment(R.layout.fragment_edit_note), MenuProvider {
             }.create().show()
         }
     }
+    private fun saveNote() {
+        val noteTitle = binding.editNoteTitle.text.toString().trim()
+        val noteDesc = binding.editNoteDesc.text.toString().trim()
+
+        if (noteTitle.isNotEmpty()) {
+            val note = Note(currentNote.id, noteTitle, noteDesc)
+            notesViewModel.updateNote(note)
+            view?.findNavController()?.navigate(R.id.action_editNoteFragment_to_homeFragment)
+        } else {
+            Toast.makeText(context, "Please Enter Note Title.", Toast.LENGTH_SHORT).show()
+        }
+    }
 
     override fun onCreateMenu(menu: Menu, menuInflater: MenuInflater) {
         menu.clear()
@@ -93,6 +105,10 @@ class EditNoteFragment : Fragment(R.layout.fragment_edit_note), MenuProvider {
         return  when(menuItem.itemId){
             R.id.deleteMenu -> {
                 deleteNote()
+                true
+            }
+            R.id.saveMenu -> {
+                saveNote()
                 true
             }
             else -> false
