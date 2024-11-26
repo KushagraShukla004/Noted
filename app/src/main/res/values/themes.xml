@@ -2,7 +2,7 @@
     <!-- Light Theme -->
     <style name="Base.Theme.Noted" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimary">@color/background_color</item>
         <item name="colorPrimaryVariant">@color/fuschia</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
@@ -10,11 +10,14 @@
         <item name="colorSecondaryVariant">@color/soft_gray_pink</item>
         <item name="colorOnSecondary">@color/black</item>
         <!-- Background color -->
-        <item name="android:colorBackground">@color/light_gray</item>
+        <item name="android:colorBackground">@color/fuschia</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="android:windowLightStatusBar">true</item>
     </style>
 
     <style name="Theme.Noted" parent="Base.Theme.Noted" />
+<!--    <style name="AppTheme" parent="Theme.AppCompat">-->
+<!--        <item name="android:windowBackground">@color/background_color</item>-->
+<!--    </style>-->
 </resources>

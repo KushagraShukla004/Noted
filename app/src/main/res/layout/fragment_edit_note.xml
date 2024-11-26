@@ -20,7 +20,7 @@
             android:fontFamily="@font/comfortaa"
             android:text="Edit Note"
             android:textStyle="bold"
-            android:textColor="@color/soft_red"
+            android:textColor="@color/background_color"
             android:textSize="24sp"
             tools:ignore="HardcodedText" />
 
@@ -29,6 +29,9 @@
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:hint="Enter the title"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:backgroundTint="@color/background_color"
             android:padding="12dp"
             android:textSize="20sp"
             android:layout_below="@id/editNoteHeading"
@@ -43,6 +46,9 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:hint="Enter the description"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:backgroundTint="@color/background_color"
             android:gravity="top"
             android:padding="12dp"
             android:textSize="18sp"

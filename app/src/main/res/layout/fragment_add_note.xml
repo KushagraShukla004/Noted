@@ -19,7 +19,7 @@
             android:layout_marginTop="16dp"
             android:fontFamily="@font/comfortaa"
             android:text="@string/add_note"
-            android:textColor="@color/soft_red"
+            android:textColor="@color/background_color"
             android:textSize="24sp"
             android:textStyle="bold" />
 
@@ -28,10 +28,13 @@
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:hint="@string/enter_the_title"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
             android:padding="12dp"
             android:textSize="20sp"
             android:layout_below="@id/addNoteHeading"
             android:background="@drawable/red_border"
+            android:backgroundTint="@color/background_color"
             android:layout_marginTop="16dp"
             android:maxLines="1"
             android:fontFamily="@font/comfortaa"/>
@@ -41,6 +44,9 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:hint="@string/enter_the_description"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:backgroundTint="@color/background_color"
             android:gravity="top"
             android:padding="12dp"
             android:textSize="18sp"
